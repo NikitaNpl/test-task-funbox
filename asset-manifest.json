@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/test-task-funbox/static/css/main.939a816f.chunk.css",
+    "main.js": "/test-task-funbox/static/js/main.6a765072.chunk.js",
+    "main.js.map": "/test-task-funbox/static/js/main.6a765072.chunk.js.map",
+    "runtime-main.js": "/test-task-funbox/static/js/runtime-main.6647d118.js",
+    "runtime-main.js.map": "/test-task-funbox/static/js/runtime-main.6647d118.js.map",
+    "static/js/2.68187928.chunk.js": "/test-task-funbox/static/js/2.68187928.chunk.js",
+    "static/js/2.68187928.chunk.js.map": "/test-task-funbox/static/js/2.68187928.chunk.js.map",
+    "index.html": "/test-task-funbox/index.html",
+    "precache-manifest.448c5b4b3e120a69565caa97d34a4d48.js": "/test-task-funbox/precache-manifest.448c5b4b3e120a69565caa97d34a4d48.js",
+    "service-worker.js": "/test-task-funbox/service-worker.js",
+    "static/css/main.939a816f.chunk.css.map": "/test-task-funbox/static/css/main.939a816f.chunk.css.map",
+    "static/js/2.68187928.chunk.js.LICENSE.txt": "/test-task-funbox/static/js/2.68187928.chunk.js.LICENSE.txt",
+    "static/media/cat.png": "/test-task-funbox/static/media/cat.55202897.png",
+    "static/media/index.scss": "/test-task-funbox/static/media/pattern.04ba3a00.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6647d118.js",
+    "static/js/2.68187928.chunk.js",
+    "static/css/main.939a816f.chunk.css",
+    "static/js/main.6a765072.chunk.js"
+  ]
+}
