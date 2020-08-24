@@ -1,6 +1,8 @@
 # Тестовое задание FunBox
 
-[Сам сайт](https://nikitanpl.github.io/test-task-funbox/).
+[Само ТЗ](https://dl.funbox.ru/qt-html-css-js.zip).
+[Готовое ТЗ/сайт](https://nikitanpl.github.io/test-task-funbox/).
+
 
 ## Level 1
 
@@ -88,4 +90,4 @@ JS-программирование
 
 ## Level 2
 
-[Сам сайт](https://nikitanpl.github.io/test-task-funbox/).
+[Готовое ТЗ/сайт](https://nikitanpl.github.io/test-task-funbox/).
