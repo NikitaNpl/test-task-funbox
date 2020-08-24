@@ -1,6 +1,6 @@
 # Тестовое задание FunBox
 
-[Само ТЗ](https://dl.funbox.ru/qt-html-css-js.zip).
+[Тестовое задание](https://dl.funbox.ru/qt-html-css-js.zip).<br />
 [Готовое ТЗ/сайт](https://nikitanpl.github.io/test-task-funbox/).
 
 
