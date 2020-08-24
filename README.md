@@ -1,16 +1,22 @@
+# Тестовое задание FunBox
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Level 1
 
-In the project directory, you can run:
+### `Q1 Расскажите, чем, на ваш взгляд, отличается хорошая верстка от плохой с точки зрения: `
 
-### `npm start`
+пользователя: 
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+менеджера проекта:
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+дизайнера:
+
+верстальщика:
+
+клиентского программиста: 
+
+серверного программиста:
 
 ### `npm test`
 

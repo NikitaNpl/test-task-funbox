@@ -1,0 +1,58 @@
+$blue:        #1698d9;
+$blue-h:      #2ea8e6;
+$purple:      #d91667;
+$purple-h:    #e62e7a;
+$gray:        #b3b3b3;
+$bg-gray:     #f2f2f2;
+
+$text-gray:   #666666;
+$text-yellow: #ffff66;
+$white:       #fff;
+$black:       #000;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Exo 2', sans-serif;
+}
+
+body {
+  background: url(./assets/img/pattern.png) no-repeat center center fixed;
+  background-size: cover;
+
+  &:after {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background: url(./assets/img/shadow.png) 0 0/100% 100% no-repeat;
+  }
+}
+
+.App {
+  min-height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.main-title {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    
+    h1 {
+      color: white;
+      font-weight: 400;
+      font-size: 50px;
+    }
+}
+
+
+
