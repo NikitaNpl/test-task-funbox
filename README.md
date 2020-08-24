@@ -1,74 +1,89 @@
 # Тестовое задание FunBox
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[Сам сайт](https://nikitanpl.github.io/test-task-funbox/).
 
 ## Level 1
 
 ### `Q1 Расскажите, чем, на ваш взгляд, отличается хорошая верстка от плохой с точки зрения: `
 
-пользователя: 
+```
++ пользователя: простота взаимодействия с сайтом. Сайт должен выглядеть интуативно понятным, красивым и одновремнно простым в дизайнерском плане;
++ менеджера проекта: качественный и понятный код с возможностью масштабирования;
++ дизайнера: чтобы элементы на сайте подобали его дизайну/макету;
++ верстальщика: понятный и поддерживаемый код, грамотное использование инструментов;
++ клиентского программиста: грамотное наименование классов и ID. Понятный и гибко расширяемый код;
++ серверного программиста: производительность клиентской части, грамотное отображение контента и его оптимизация.
 
-менеджера проекта:
+```
 
-дизайнера:
+### `Q2 Опишите основные особенности верстки крупных многостраничных сайтов, дизайн которых может меняться в процессе реализации и поддержки.`
 
-верстальщика:
+```
++ единость стандартов;
++ грамотная верстка;
++ использование вспомогательных технологий для рутинных работ;
++ использование систем контроля версий.
 
-клиентского программиста: 
+```
 
-серверного программиста:
+### `Расскажите о своем опыте верстки подобных сайтов: какие методологии, инструменты и технологии вы применяли на практике.`
 
-### `npm test`
+В своей работе я использую сборщик модулей Webpack, для организации своей рабочей области. Подобная модульная система мне позволяет лучше следить и организовывать проект. Также стараюсь использовать css-препроцессоры — они меня привлекают тем, что благодаря ним удобно работать со стилями. Могу и умею бращаться к DOM-элементов как на native JS, так и на React. 
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+В данное время активно посвещаю время изучению React.js
 
-### `npm run build`
+### `Q3 Опишите основные особенности верстки сайтов, которые должны одинаково хорошо отображаться как на любом современном компьютере, так и на смартфонах и планшетах под управлением iOS и Android. Расскажите о своем опыте верстки подобных сайтов: какие инструменты и технологии вы применяли, как проверяли результат на различных устройствах, какие именно устройства требовалось поддерживать.`
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
++ использование медиа запросов;
++ использование вспомогательных библиотек(bootsrap);
++ различного рода тестирование UI/UX;
++ использование систем контроля версий.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### `Q4 Расскажите, какие инструменты помогают вам экономить время в процессе написания, проверки и отладки кода.`
 
-### `npm run eject`
+```
++ менеджер пакетов npm;
++ сборщик модулей Webpack;
++ scss;
++ IDE и его расширения;
++ Панель разработчика в браузере. 
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### `Q5 Вам нужно понять, почему страница отображается некорректно в Safari на iOS и в IE на Windows. Код писали не вы, доступа к исходникам у вас нет. Ваши действия? Сталкивались ли вы с подобными проблемами на практике?`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Нет, с этими проблемами я не сталкивался. Однако, осмелюсь предположить, что виной всему является неграмотная верстка и использование технологий.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Если бы возможности доступа к исходник у меня не было, то воспользовался бы панелью разработчка в браузере.
 
-## Learn More
+А, если же все-таки доступ к исходникам был, то для начала я бы установил плагин "autoprefixer" — он нужен для автоматического добавления вендорных префиксов, именно благодаря нему создание кроссбраузерного css становится проще. Различная откладка кода.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### `Q6 Дизайнер отдал вам макет, в котором не показано, как должны выглядеть интерактивные элементы при наведении мыши. Ваши действия?`
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
++ уточнить, как должны выглядеть интерактивные элементы при наведении мыши;
++ возможно, попросить дополнить макет;
 
-### Code Splitting
+```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+### `Q7 Какие ресурсы вы используете для развития в профессиональной сфере? Приведите несколько конкретных примеров (сайты, блоги и так далее).`
 
-### Analyzing the Bundle Size
+Периодически читаю статьи на Habr. Люблю слушать в свободное время [Frontend Weekend Podcast](https://soundcloud.com/frontend-weekend). Слежу за дейятельностью [youtube-канала](https://www.youtube.com/channel/UCdldbhAwO16vjnDwACTs5gQ)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+### `Какое направление развития вам более близко: JS-программирование, HTML/CSS-верстка или и то, и другое?`
 
-### Making a Progressive Web App
+JS-программирование
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+### `Какие ещё области знаний, кроме тех, что непосредственно относятся к работе, вам интересны?`
 
-### Advanced Configuration
+В целом интересна web-разработка. В дальнейшем хочется развиваться по направлению full-stack;
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
 
-### Deployment
+### `Q8 Расскажите нам о себе и предоставьте несколько ссылок на последние работы, выполненные вами.`
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+Являюсь студентом последнего курса РТУ МИРЭА. Изучением стека технологий для Frontend разработчика занимаюсь более одного года. В данный момент занимаюсь разработкой на JavaScript/React.
 
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Все мои проекты лежат на [GitHub](https://github.com/NikitaNpl)
