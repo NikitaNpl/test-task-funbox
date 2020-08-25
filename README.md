@@ -60,7 +60,7 @@
 
 ### `Q7 Какие ресурсы вы используете для развития в профессиональной сфере? Приведите несколько конкретных примеров (сайты, блоги и так далее).`
 
-Периодически читаю статьи на Habr. Люблю слушать [Frontend Weekend Podcast](https://soundcloud.com/frontend-weekend). Слежу за деятельностью [youtube-канала](https://www.youtube.com/channel/UCdldbhAwO16vjnDwACTs5gQ)
+Периодически читаю статьи на Habr. Люблю слушать [Frontend Weekend Podcast](https://soundcloud.com/frontend-weekend) и [XYZ Podcast](https://soundcloud.com/user-763842102). Слежу за деятельностью [youtube-канала](https://www.youtube.com/channel/UCdldbhAwO16vjnDwACTs5gQ)
 
 ### `Какое направление развития вам более близко: JS-программирование, HTML/CSS-верстка или и то, и другое?`
 
